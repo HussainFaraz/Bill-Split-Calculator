@@ -1,0 +1,100 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    margin-top: 80px;
+}
+h3
+{
+    text-shadow: 2px 2px 5px red;
+        text-align: center;
+}
+#divv
+{
+    border: black;
+    border-collapse: collapse;
+    background-color: black;
+
+}
+/*
+#divv2
+{
+    border: black;
+    border-radius: inherit;
+border-style: wave;
+background-color: darkgray;
+
+}
+*/
+#Name_Amount
+{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: Black;
+    text-align: center;
+    display: inline-block;
+}
+form{
+    text-align: center;
+      border: black;
+    border-radius: 20px;
+border-style: wave;
+background-color: darkgray;
+}
+#button1
+{
+    /* background-color: firebrick; */
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+}
+#buttonUser
+{
+      /* background-color: chocolate; */
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+}
+#buttonUserDetails,#RefreshButton
+{
+      /* background-color: chocolate; */
+      border: 2px solid black;
+    display: inline-block;
+    margin: auto;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-column-gap: 1px
+}
+
+.form-control
+{
+   
+    width: 20%;
+}
+
+input[type=number] {
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  input[type=text] {
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+.label1
+{
+    text-shadow: 2px 2px 5px #ff0000;
+}
+
+body
+{
+    background-color: wheat;
+}
