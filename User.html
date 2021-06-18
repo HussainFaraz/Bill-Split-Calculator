@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="SplitWise.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Calculator</title>
+</head>
+<body bgcolor="#ffe4c4">
+<H1>Bill-Split Calculator</H1>
+<div id="divv">
+
+<p >.</p>
+</div>
+<div id="divv2">
+    <form id="form1">
+        <br>
+    
+        <label class="label1" ><b>Total Bill:</b></label><br><br>
+        <input  type="number" id="totalbill">
+          
+        <br><br>
+        <label class="label1">Number of people to divide the bill:</label> <br><br>
+        <input  type="number" id="numberofpeople">
+        <br><br>
+
+            <div  id="container">
+                <button class="btn btn-dark" id="buttonUserDetails" type="button" onClick="CalculateUser()">Proceed</button>
+                <button class="btn btn-dark" type="submit" id="RefreshButton" onClick="refreshPage()">Refresh</button>
+            <br>
+                <div class="grid-container">
+                <div >  <label class="label1" id="Name"><b>Name:</b></label></div>
+
+                  <div  ><label class="label1" id="Amount"><b>Amount:</b></label></div>
+                </div>
+
+
+           </div>
+    </form>
+<br><br>
+</div>
+
+  <button type="submit" class="btn btn-dark" id="buttonUser" onclick="CalculateBill()">Calculate!</button>
+   <h3 id="head3">Please Click On Calculate to find the splitwise bill </h3> <br>
+<h4 id="head4"> .</h4>
+<script type="text/javascript" src="SplitWise.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
